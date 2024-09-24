@@ -1,0 +1,76 @@
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: #ffc000;
+    border-bottom-style: solid;
+    background-color: #f2f2f2;
+    border-bottom-width: thick;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+body {
+    max-width: 70vh;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.smallText {
+    font-size: small;
+}
+
+.profileContainer {
+    display: flex;
+    padding-top: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 15px;
+}
+
+.workContainer {
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 15px;
+}
+
+.skillsContainer {
+    display: flex;
+    align-items: baseline;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding-bottom: 15px;
+}
+
+.educationContainer {
+    display: flex;
+}
+
+.sectionHeader {
+    font-weight: bold;
+    font-style: italic;
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.skillSection {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.contactContainer {
+    padding-right: 40px;
+}
+
+.nameContainer {
+    padding-left: 40px;
+}
+
+.bodydiv {
+    flex-shrink: 4;
+    flex-basis: 80%;
+}
